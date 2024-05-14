@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+    font-size: larger;
+}
+
+.nummers p:nth-child(1){
+    color: red;
+}
+
+.nummers p:nth-child(2){
+    color: blue;
+}
+
+.nummers p:nth-child(3){
+    color: green;
+}
+
+.nummers p:nth-child(4){
+    color: rgb(0, 0, 0);
+}
+
+.nummers p:nth-child(5){
+    color: purple;
+}
+
+.links a{
+    color: red;
+    text-decoration: none;
+}
+
+.links a:hover{
+    color: purple;
+}
+
+.links:only-child{
+    color: gold;
+}
