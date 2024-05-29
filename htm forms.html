@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Basic HTML Form</title>
+</head>
+<body>
+
+<h2>Sample Form</h2>
+
+<form action="/submit_form" method="POST">
+    <!-- Text Input -->
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br><br>
+
+    <!-- Email Input -->
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+
+    <!-- Password Input -->
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password"><br><br>
+
+    <!-- Radio Buttons -->
+    <label>Gender:</label>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br><br>
+
+    <!-- Checkbox -->
+    <label for="subscribe">Subscribe to newsletter:</label>
+    <input type="checkbox" id="subscribe" name="subscribe"><br><br>
+
+    <!-- Dropdown List -->
+    <label for="country">Animal:</label>
+    <select id="country" name="country">
+        <option value="usa">Cow</option>
+        <option value="canada">Moncef</option>
+        <option value="uk">Cat</option>
+    </select><br><br>
+
+    <!-- Textarea -->
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+    <!-- Submit Button -->
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
