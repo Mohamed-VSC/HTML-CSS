@@ -76,7 +76,6 @@
       background-color: var(--primary-color-dark);
   }
 
-
   a {
       text-decoration: none;
   }
@@ -158,11 +157,13 @@
   .header_image img:nth-child(1) {
       max-width: 350px;
       transform: translate(-75%, -50%);
+      filter: brightness(0.8);
   }
 
   .header_image img:nth-child(2) {
       max-width: 250px;
       transform: translate(0%, -25%);
+      filter: brightness(0.7);
   }
 
   .header_content {
