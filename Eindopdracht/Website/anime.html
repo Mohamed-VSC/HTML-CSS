@@ -4,10 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jojo Bizarre Adventure</title>
+    <title>Jojo Bizarre Adventure - Anime page</title>
     <link rel="stylesheet" href="creator.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css">
 </head>
+
+
+<!-- Navbar Container -->
 
 <body>
     <header>
@@ -20,9 +23,33 @@
                 <li class="link"><a href="creator.html">Creator</a></li>
                 <li class="link"><a href="anime.html">Anime</a></li>
             </ul>
-            <button class="btn">Quiz</button>
+            <label for="quiz-toggle" class="btn">Quiz</label>
         </nav>
     </header>
+
+    <!-- Quiz Container -->
+
+    <input type="checkbox" id="quiz-toggle" class="quiz-toggle">
+    <div class="quiz-container">
+        <form class="quiz-form">
+            <h2>Jojo's Bizarre Adventure Quiz</h2>
+            <div class="quiz-question">
+                <label for="question1">1. Who is the main protagonist of the first part of Jojo's Bizarre
+                    Adventure?</label>
+                <input type="text" id="question1" name="question1">
+            </div>
+            <div class="quiz-question">
+                <label for="question2">2. What is the name of the stand used by Jotaro Kujo?</label>
+                <input type="text" id="question2" name="question2">
+            </div>
+            <div class="quiz-question">
+                <label for="question3">3. In which part does Josuke Higashikata appear?</label>
+                <input type="text" id="question3" name="question3">
+            </div>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </div>
+
     <footer>
         <div class="footer_container">
             <h3>Mohamed Ali</h3>

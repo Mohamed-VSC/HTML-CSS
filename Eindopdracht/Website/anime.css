@@ -167,3 +167,58 @@ footer {
 body::-webkit-scrollbar {
     display: none;
 }
+
+/* Quiz code */
+.quiz-toggle {
+    display: none;
+}
+
+.quiz-toggle:checked+.quiz-container {
+    display: block;
+}
+
+.quiz-container {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(1, 0, 19, 0.85);
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 200;
+    max-width: 500px;
+    width: 90%;
+}
+
+.quiz-container h2 {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.quiz-question {
+    margin-bottom: 1rem;
+}
+
+.quiz-question label {
+    color: white;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.quiz-question input {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.quiz-container .btn {
+    background-color: #f66c6c;
+    color: white;
+}
+
+.quiz-container .btn:hover {
+    background-color: #e65555;
+}
