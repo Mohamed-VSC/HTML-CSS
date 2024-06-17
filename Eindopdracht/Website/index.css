@@ -32,7 +32,7 @@
   }
 
   .section_container {
-      max-width: var(--max-width);
+      max-width: 1200px;
       margin: auto;
       padding: 5rem 1rem;
   }
@@ -49,14 +49,14 @@
   .section_title {
       font-size: 2rem;
       font-weight: 600;
-      color: var(--text-dark);
+      color: #0d213f;
       margin-bottom: 1rem;
   }
 
   .section_subtitle {
       font-size: 1rem;
       color: white;
-      max-width: var(--max-width/2);
+      max-width: 1200/2;
   }
 
   .btn {
@@ -64,7 +64,7 @@
       outline: none;
       border: none;
       font-size: 1rem;
-      color: var(--extra-light);
+      color: #ffffff;
       background-color: red;
       border-radius: 5rem;
       cursor: pointer;
@@ -73,7 +73,7 @@
   }
 
   .btn:hover {
-      background-color: var(--primary-color-dark);
+      background-color: transparent;
   }
 
   a {
@@ -86,7 +86,7 @@
   }
 
   body {
-      font-family: 'Poppins, sans-sarif';
+      font-family: 'Poppins, sans-serif';
       background: url(https://cdnb.artstation.com/p/assets/images/images/051/084/947/large/balyka-oleksii-24.jpg?1656424518);
       background-repeat: no-repeat;
       background-size: cover;
@@ -99,7 +99,7 @@
       left: 50%;
       transform: translateX(-50%);
       width: 100%;
-      max-width: var(--max-width);
+      max-width: 1200px;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -109,7 +109,7 @@
   .navlogo {
       font-size: 1.2rem;
       font-weight: 600;
-      color: var(--text-dark);
+      color: #0d213f;
       cursor: pointer;
   }
 
@@ -131,7 +131,7 @@
   }
 
   .link a:hover {
-      color: var(--primary-color);
+      color: none;
   }
 
   .header_container {
@@ -149,7 +149,7 @@
       position: absolute;
       top: 50%;
       left: 50%;
-      border: 0.5rem solid var(--extra-light);
+      border: 0.5rem solid #ffffff;
       border-radius: 2rem;
       box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
   }
@@ -182,7 +182,7 @@
   .header_content .sub_header {
       font-size: 1rem;
       font-weight: 600;
-      color: var(--primary-color);
+      color: white;
   }
 
   .header_content h1 {

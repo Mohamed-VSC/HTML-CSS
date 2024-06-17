@@ -79,7 +79,7 @@ header::before {
 }
 
 .btn:hover {
-    background-color: var(--primary-color-dark);
+    background-color: transparent;
 }
 
 nav {
