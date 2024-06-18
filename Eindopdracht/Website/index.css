@@ -1,12 +1,5 @@
   @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-  :root {
-      --text-dark: #0d213f;
-      --text-light: #767268;
-      --extra-light: #ffffff;
-      --max-width: 1200px;
-  }
-
   header {
       color: red !important;
   }
@@ -113,10 +106,6 @@
       cursor: pointer;
   }
 
-  .navlogo span {
-      color: var(--primary-color);
-  }
-
   .navlinks {
       list-style: none;
       display: flex;
@@ -200,6 +189,62 @@
       margin-top: 1rem;
   }
 
+
+  .quiz-toggle {
+      display: none;
+  }
+
+  .quiz-toggle:checked+.quiz-container {
+      display: block;
+  }
+
+  .quiz-container {
+      display: none;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: rgba(1, 0, 19, 0.85);
+      padding: 2rem;
+      border-radius: 1rem;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      z-index: 200;
+      max-width: 500px;
+      width: 90%;
+  }
+
+  .quiz-container h2 {
+      color: white;
+      margin-bottom: 1rem;
+  }
+
+  .quiz-question {
+      margin-bottom: 1rem;
+  }
+
+  .quiz-question label {
+      color: white;
+      display: block;
+      margin-bottom: 0.5rem;
+  }
+
+  .quiz-question input {
+      width: 100%;
+      padding: 0.5rem;
+      border: none;
+      border-radius: 0.5rem;
+  }
+
+  .quiz-container .btn {
+      background-color: #f66c6c;
+      color: white;
+  }
+
+  .quiz-container .btn:hover {
+      background-color: #e65555;
+  }
+
+
   footer {
       height: auto;
       width: auto;
@@ -265,61 +310,4 @@
 
   body::-webkit-scrollbar {
       display: none;
-  }
-
-
-  /* Quiz code */
-
-  .quiz-toggle {
-      display: none;
-  }
-
-  .quiz-toggle:checked+.quiz-container {
-      display: block;
-  }
-
-  .quiz-container {
-      display: none;
-      position: fixed;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      background-color: rgba(1, 0, 19, 0.85);
-      padding: 2rem;
-      border-radius: 1rem;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-      z-index: 200;
-      max-width: 500px;
-      width: 90%;
-  }
-
-  .quiz-container h2 {
-      color: white;
-      margin-bottom: 1rem;
-  }
-
-  .quiz-question {
-      margin-bottom: 1rem;
-  }
-
-  .quiz-question label {
-      color: white;
-      display: block;
-      margin-bottom: 0.5rem;
-  }
-
-  .quiz-question input {
-      width: 100%;
-      padding: 0.5rem;
-      border: none;
-      border-radius: 0.5rem;
-  }
-
-  .quiz-container .btn {
-      background-color: #f66c6c;
-      color: white;
-  }
-
-  .quiz-container .btn:hover {
-      background-color: #e65555;
   }

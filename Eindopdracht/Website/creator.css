@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-:root {
-    --text-dark: #0d213f;
-    --text-light: #767268;
-    --extra-light: #ffffff;
-    --max-width: 1200px;
-}
-
 body {
     background-image: url(https://cdnb.artstation.com/p/assets/images/images/051/084/947/large/balyka-oleksii-24.jpg?1656424518);
     background-repeat: no-repeat;
@@ -125,75 +118,6 @@ a {
     text-decoration: none;
 }
 
-
-footer {
-    height: auto;
-    width: auto;
-    font-family: "Open Sans";
-    padding-top: 0px;
-    color: #fff;
-}
-
-.footer_container {
-    background: rgba(1, 0, 19, 0.45);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-}
-
-.footer_container h3 {
-    font-size: large;
-    font-weight: 400;
-    text-transform: capitalize;
-    line-height: 1.5rem;
-}
-
-.socials {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 1rem 0 0rem 0;
-}
-
-.socials li {
-    margin: 0 10px;
-}
-
-.socials a {
-    text-decoration: none;
-    color: #fff;
-}
-
-.socials a i {
-    font-size: 1.1rem;
-    transition: color .4s ease;
-}
-
-.socials :hover i {
-    color: aqua;
-}
-
-.footer_bottom {
-    background: rgba(1, 0, 19, 0.45);
-    width: 100vw;
-    padding: 20px 0;
-    text-align: center;
-}
-
-.footer_bottom -bottom p {
-    font-size: 14px;
-    word-spacing: 2px;
-    text-transform: capitalize;
-}
-
-body::-webkit-scrollbar {
-    display: none;
-}
-
-/* Quiz code */
 .quiz-toggle {
     display: none;
 }
@@ -311,4 +235,71 @@ body::-webkit-scrollbar {
     align-items: center;
     gap: 2rem;
     margin-top: 1rem;
+}
+
+footer {
+    height: auto;
+    width: auto;
+    font-family: "Open Sans";
+    padding-top: 0px;
+    color: #fff;
+}
+
+.footer_container {
+    background: rgba(1, 0, 19, 0.45);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer_container h3 {
+    font-size: large;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 1.5rem;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 0rem 0;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.socials a i {
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+
+.socials :hover i {
+    color: aqua;
+}
+
+.footer_bottom {
+    background: rgba(1, 0, 19, 0.45);
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer_bottom -bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
