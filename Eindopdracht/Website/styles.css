@@ -45,7 +45,7 @@ header::before {
 .section_subtitle {
     font-size: 1rem;
     color: white;
-    max-width: 1200/2;
+    max-width: 600;
 }
 
 .btn {
@@ -75,7 +75,7 @@ img {
 }
 
 body {
-    font-family: 'Poppins, sans-serif';
+    font-family: 'Poppins', sans-serif;
     background: url(https://cdnb.artstation.com/p/assets/images/images/051/084/947/large/balyka-oleksii-24.jpg?1656424518);
     background-repeat: no-repeat;
     background-size: cover;
@@ -124,10 +124,12 @@ nav {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
+    padding-top: 5rem;
 }
 
 .header_image {
     position: relative;
+    display: grid;
 }
 
 .header_image img {
@@ -152,7 +154,7 @@ nav {
 }
 
 .header_content {
-    display: flex;
+    display: grid;
     align-items: center;
     justify-content: center;
     z-index: 1;
@@ -245,7 +247,7 @@ nav {
 footer {
     height: auto;
     width: auto;
-    font-family: "Open Sans";
+    font-family: 'Poppins', sans-serif;
     padding-top: 0px;
     color: #fff;
 }
@@ -311,7 +313,7 @@ body::-webkit-scrollbar {
 
 @media (max-width: 768px) {
     .navlinks {
-        display: none;
+        display: grid;
     }
 
     .navlogo img {
@@ -324,11 +326,11 @@ body::-webkit-scrollbar {
     }
 
     .header_image img {
-        max-width: 100px;
+        margin-top: 200px;
     }
 
     .header_content {
-        margin-top: 0;
+        margin-top: 350px;
     }
 
     .header_content h1 {
